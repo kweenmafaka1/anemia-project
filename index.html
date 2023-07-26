@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AnemiaScan-Главная страница</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/button.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Anemia<span>Scan</span></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Главная страница/Калькулятор</a></li>
+
+            <li class="nav-item"><a href="services.html" class="nav-link">Виды анемии</a>
+              </li>
+
+	          <li class="nav-item"><a href="contact.html" class="nav-link">О Нас/Контакты</a></li>
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url('images/bg_1.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+            <div class="col-md-6 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Мы диагностирируем лишь актуальное и распространенное</h1>
+              <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Анемия: обнаружьте ее своевременно и позаботьтесь о здоровье</p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item" style="background-image: url('images/8-6.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text align-items-center" data-scrollax-parent="true">
+            <div class="col-md-6 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Анемия: невидимый вор, ослабляющий жизненную силу</h1>
+              <p class="mb-4">Железодефицитная анемия возникает при недостатке железа в организме</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="ftco-section ftco-services">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <h2 class="mb-2">Калькулятор</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-wrap mt-5">
+        <div class="row d-flex no-gutters">
+          <div class="col-md-6 img">
+            <form id="dataForm">
+              <div>
+                        <label for="full_name">ФИО:</label>
+                        <input type="text" id="full_name" name="full_name">
+                        </div>
+                        <div>
+                        <label for="RBC">Уровень эритроцита в крови (г/л):</label>
+                        <input type="number" id="RBC" name="RBC" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="HGB">Уровень гемоглобина в крови (г/л):</label>
+                        <input type="number" id="HGB" name="HGB" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="HCT">Гематокрит (%):</label>
+                        <input type="number" id="HCT" name="HCT" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="MCV">Средний объём эритроцита (фл):</label>
+                        <input type="number" id="MCV" name="MCV" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="MCH">Средний эритроцитарный гемоглобин (пг):</label>
+                        <input type="number" id="MCH" name="MCH" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="MCHC">Средняя концентрация гемоглобина в эритроците (г/л):</label>
+                        <input type="number" id="MCHC" name="MCHC" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="RDW_CV">Распределение эритроцитов по объёму, КВ(%):</label>
+                        <input type="number" id="RDW_CV" name="RDW_CV" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="RDW_SD">Распределение эритроцитов по объёму, фл:</label>
+                        <input type="number" id="RDW_SD" name="RDW_SD" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="ferritin">Ферритин(нмоль/л):</label>
+                        <input type="number" id="ferritin" name="ferritin" step="0.1" >
+                        </div>
+                        <div>
+                        <label for="fe">Железо(нмоль/л):</label>
+                        <input type="number" id="fe" name="fe" step="0.1" >
+                        </div>
+
+                        <input type="submit" value="Узнать диагноз">
+                        <button type="button" id="resetFormButton">Сбросить</button>
+            </form>
+
+            <div id="diagnosesResult"></div>
+
+            <div id="additionalFormsContainer"></div>
+
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div class="about-wrap">
+              <div class="heading-section heading-section-white mb-5 ftco-animate">
+                <h2 class="mb-2">Показатели Общего анализа крови</h2>
+              </div>
+              <div class="list-services d-flex ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <span class="icon-check2"></span>
+                </div>
+                <div class="text">
+                  <h3>Высокоточный тест на выявление анемии</h3>
+                </div>
+              </div>
+              <div class="list-services d-flex ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <span class="icon-check2"></span>
+                </div>
+                <div class="text">
+                  <h3>Удобный и быстрый тестировочный метод для анемии</h3>
+                </div>
+              </div>
+              <div class="list-services d-flex ftco-animate">
+                <div class="icon d-flex justify-content-center align-items-center">
+                  <span class="icon-check2"></span>
+                </div>
+                <div class="text">
+                  <h3>Надежный тест на раннюю диагностику анемии</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      async function sendDataToApi(formData, retries = 2) {
+       const url = 'http://206.81.25.11/examinations';
+       const options = {
+           method: 'POST',
+           headers: {
+               'Content-Type': 'application/json',
+           },
+           body: JSON.stringify(formData),
+       };
+
+       try {
+           let response = await fetch(url, options);
+           let data = await response.json();
+           return data;
+       } catch (error) {
+           console.error('Ошибка:', error);
+           if (retries > 0) {
+               console.log(`Повторный вызов API, осталось попыток: ${retries}`);
+               return sendDataToApi(formData, retries - 1);
+           }
+           throw error;
+       }
+      }
+
+            function displayDiagnosis(diagnosis) {
+                const diagnosisResultElement = document.getElementById('diagnosisResult');
+                diagnosisResultElement.innerHTML = `Диагноз: ${diagnosis}`;
+            }
+
+            function handleDiagnoses(data) {
+                const diagnosesResultElement = document.getElementById('diagnosesResult');
+                const additionalFormsContainer = document.getElementById('additionalFormsContainer');
+                additionalFormsContainer.innerHTML = '';
+
+                if (data.additional_parameters && data.additional_parameters.length > 0) {
+                    const additionalFormsHeader = `
+                        <h3> Дополнительная форма для выявления точного диагноза:  </h3>
+                    `;
+                    additionalFormsContainer.innerHTML += additionalFormsHeader;
+
+                    data.additional_parameters.forEach((param, index) => {
+                        if (param === 'direct_antiglobulin_test') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">Реакция Кумбса:</label>
+                                        <select class="form-control" id="${param}" name="${param}">
+                                            <option value="" selected disabled>Выберите опцию</option>
+                                            <option value="POS">Положительная</option>
+                                            <option value="NEG">Отрицательная</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        } if (param== 'TIBC') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">TIBC (мкмоль/л):</label>
+                                        <input type="number" id="${param}" name="${param}" step="0.1">
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        }
+                        if (param== 'transferrin') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">Трансферрин (г/л):</label>
+                                        <input type="number" id="${param}" name="${param}" step="0.1">
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        }
+                        if (param== 'B9') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">B9 (нмоль/л):</label>
+                                        <input type="number" id="${param}" name="${param}" step="0.1">
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        }
+                        if (param== 'B12') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">B12 (пг/мл):</label>
+                                        <input type="number" id="${param}" name="${param}" step="0.1">
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        }if (param== 'total_bilirubin') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">Общий Билирубин (мкмоль/л):</label>
+                                        <input type="number" id="${param}" name="${param}" step="0.1">
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        }
+                        if (param== 'LDH') {
+                            const formHtml = `
+                                <form id="additionalForm${index}">
+                                    <div>
+                                        <label for="${param}">ЛДГ (Ед/л):</label>
+                                        <input type="number" id="${param}" name="${param}" step="0.1">
+                                    </div>
+                                </form>
+                            `;
+                            additionalFormsContainer.innerHTML += formHtml;
+                        }
+                    });
+
+                    const sendAllButtonHtml = `
+                        <form id="sendAllForm">
+                            <button type="submit">Узнать диагноз</button>
+                        </form>
+                    `;
+
+                    additionalFormsContainer.innerHTML += sendAllButtonHtml;
+
+
+                    document.getElementById('dataForm').style.display = 'none';
+                    diagnosesResultElement.innerHTML = '';
+
+                    additionalFormsContainer.style.display = 'block';
+
+                    displayDiagnosis(data.diagnoses);
+                } else {
+                    document.getElementById('dataForm').style.display = 'block';
+                    diagnosesResultElement.innerHTML = data.diagnoses || 'Невозможно диагностировать ваш случай. Рекомендуем обратиться к гематологу';
+                }
+            }
+
+            document.getElementById('dataForm').addEventListener('submit', async (event) => {
+                event.preventDefault();
+                const formData = new FormData(event.target);
+                const formDataObject = {};
+                formData.forEach((value, key) => {
+                    formDataObject[key] = value;
+                });
+
+                try {
+                    const data = await sendDataToApi(formDataObject);
+                    handleDiagnoses(data);
+                } catch (error) {
+                    console.error('Ошибка:', error);
+                }
+            });
+
+            document.getElementById('additionalFormsContainer').addEventListener('submit', async (event) => {
+                event.preventDefault();
+                const formDataObject = {};
+                const mainFormData = new FormData(document.getElementById('dataForm'));
+                mainFormData.forEach((value, key) => {
+                    formDataObject[key] = value;
+                });
+
+                const additionalForms = document.querySelectorAll('form[id^="additionalForm"]');
+                additionalForms.forEach((form, index) => {
+                    form.querySelectorAll('input, select').forEach(input => {
+                        formDataObject[input.name] = input.value;
+                    });
+                });
+
+                try {
+                    const data = await sendDataToApi(formDataObject);
+                    handleDiagnoses(data);
+                } catch (error) {
+                    console.error('Ошибка:', error);
+                }
+            });
+
+            document.getElementById('resetFormButton').addEventListener('click', () => {
+                document.getElementById('dataForm').style.display = 'block';
+                document.getElementById('additionalFormsContainer').innerHTML = '';
+                document.getElementById('additionalFormsContainer').style.display = 'none';
+
+                const dataForm = document.getElementById('dataForm');
+                dataForm.reset();
+
+                const diagnosesResultElement = document.getElementById('diagnosesResult');
+                diagnosesResultElement.innerHTML = '';
+            });
+            document.getElementById('additionalFormsContainer').addEventListener('submit', async (event) => {
+              event.preventDefault();
+              const formDataObject = {};
+              const mainFormData = new FormData(document.getElementById('dataForm'));
+              mainFormData.forEach((value, key) => {
+                formDataObject[key] = value;
+              });
+
+              const additionalForms = document.querySelectorAll('form[id^="additionalForm"]');
+              additionalForms.forEach((form, index) => {
+                form.querySelectorAll('input, select').forEach(input => {
+                  formDataObject[input.name] = input.value;
+                });
+              });
+
+              try {
+                const data = await sendDataToApi(formDataObject);
+                handleDiagnoses(data);
+              } catch (error) {
+                console.error('Ошибка:', error);
+              }
+            });
+
+            // Добавляем слушатель событий на кнопку "Сбросить" для всех дополнительных форм
+            document.getElementById('additionalFormsContainer').addEventListener('click', (event) => {
+              if (event.target.classList.contains('resetAdditionalFormButton')) {
+                const form = event.target.closest('form');
+                form.reset();
+              }
+            });
+
+
+</script>
+
+
+
+
+
+
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">AnemiaScan</h2>
+          <p>Медицинский центр AnemiaScan : лечение анемии, восстановление энергии.</p>
+        </div>
+
+      </div>
+      <div class="col-md-2">
+        <div class="ftco-footer-widget mb-4 ml-md-5">
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="py-2 d-block">Главная страница/Калькулятор</a></li>
+            <li><a href="services.html" class="py-2 d-block">Виды Анемии</a></li>
+            <li><a href="contact.html" class="py-2 d-block">О Нас/Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> </i> </a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+
+  <script src="js/jquery.animateNumber.min.js"></script>
+
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+
+
+  <script src="js/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+  </body>
+</html>

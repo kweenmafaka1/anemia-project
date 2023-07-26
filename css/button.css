@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+
+const scrollButton = document.getElementById('scrollButton');
+
+scrollButton.addEventListener('click', () => {
+  const scrollToElement = document.documentElement.scrollHeight / 2; // Вычисление позиции середины страницы
+
+  window.scrollTo({
+    top: scrollToElement,
+    behavior: 'smooth' // Плавная анимированная прокрутка
+  });
+});
